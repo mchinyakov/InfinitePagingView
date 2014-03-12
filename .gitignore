@@ -25,3 +25,5 @@ profile
 *.moved-aside
 DerivedData
 
+.idea
+atlassian-ide-plugin.xml
