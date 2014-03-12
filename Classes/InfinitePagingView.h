@@ -100,4 +100,5 @@ typedef enum {
  */
 - (void)scrollToNextPage;
 
+- (void)scrollToDirection:(NSInteger)moveDirection animated:(BOOL)animated;
 @end
