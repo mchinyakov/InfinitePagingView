@@ -76,6 +76,12 @@
 
 #pragma mark - Public methods
 
+- (void)removePages
+{
+    [_pageViews removeAllObjects];
+    [self layoutPages];
+}
+
 - (void)addPageView:(UIView *)pageView
 {
     if (nil == _pageViews) {
